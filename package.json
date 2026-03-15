@@ -6,7 +6,7 @@
   "main": "./src/index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexonic/openclaw-max-messenger.git"
+    "url": "git+https://github.com/alexeyavdey/openclaw-max-messenger.git"
   },
   "keywords": [
     "openclaw",

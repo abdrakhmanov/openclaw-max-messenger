@@ -29,7 +29,7 @@ Connect your OpenClaw AI agents to Max Messenger — send and receive messages, 
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/alexonic/openclaw-max-messenger.git
+git clone https://github.com/alexeyavdey/openclaw-max-messenger.git
 cd openclaw-max-messenger
 npm install
 ```
