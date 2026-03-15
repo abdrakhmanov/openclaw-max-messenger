@@ -1,0 +1,49 @@
+{
+  "name": "openclaw-max-messenger",
+  "version": "0.1.0",
+  "description": "OpenClaw channel plugin for Max Messenger (max.ru) — connect AI agents to Max via Bot API",
+  "type": "module",
+  "main": "./src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexonic/openclaw-max-messenger.git"
+  },
+  "keywords": [
+    "openclaw",
+    "max-messenger",
+    "max.ru",
+    "chatbot",
+    "ai-agent",
+    "channel-plugin"
+  ],
+  "openclaw": {
+    "extensions": ["./src/index.ts"],
+    "channel": {
+      "id": "max",
+      "label": "Max Messenger",
+      "selectionLabel": "Max Messenger (Bot API)",
+      "docsPath": "/channels/max",
+      "docsLabel": "max",
+      "blurb": "Max Messenger bot integration via Bot API.",
+      "order": 91,
+      "aliases": ["max-messenger"]
+    },
+    "install": {
+      "localPath": "extensions/max",
+      "defaultChoice": "local"
+    }
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "^0.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "license": "MIT",
+  "author": "alexonic"
+}

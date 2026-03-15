@@ -1,0 +1,17 @@
+{
+  "id": "openclaw-max-messenger",
+  "name": "Max Messenger",
+  "version": "0.1.0",
+  "description": "Channel plugin for Max Messenger (max.ru) via Bot API",
+  "author": "alexonic",
+  "engines": {
+    "openclaw": ">=0.1.0"
+  },
+  "extensions": ["./src/index.ts"],
+  "channels": ["max"],
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  }
+}
