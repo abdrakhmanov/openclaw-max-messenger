@@ -37,22 +37,7 @@ npm install
 Register the plugin with OpenClaw:
 
 ```bash
-openclaw plugin install --path /path/to/openclaw-max-messenger
-```
-
-Or add manually to `~/.openclaw/openclaw.json`:
-
-```json
-{
-  "plugins": {
-    "installs": {
-      "openclaw-max-messenger": {
-        "source": "path",
-        "path": "/path/to/openclaw-max-messenger"
-      }
-    }
-  }
-}
+openclaw plugins install --link /path/to/openclaw-max-messenger
 ```
 
 ## Configuration
